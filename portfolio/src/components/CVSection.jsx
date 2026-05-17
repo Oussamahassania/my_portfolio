@@ -6,8 +6,8 @@ const CVSection = () => {
   const handleDownload = () => {
     // Create a simple PDF download link
     const link = document.createElement('a');
-    link.href = '/cv.pdf'; // Your actual CV file is now in the public folder
-    link.download = 'Oussama_Hassania_CV_2025.pdf';
+    link.href = '/OUSSAMA-HASSANIA-CV-FINALVERSION.pdf'; // Your actual CV file is now in the public folder
+    link.download = 'OUSSAMA-HASSANIA-CV-FINALVERSION.pdf';
     link.click();
   };
 
