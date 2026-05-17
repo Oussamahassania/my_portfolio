@@ -14,7 +14,7 @@ const Projects = () => {
       technologies: ["Python", "TensorFlow", "OpenCV", "Keras"],
       category: "AI/ML",
       github: "https://github.com/Oussamahassania/MyDriverDrowsineDetectionSystem",
-      live: "/ddds.mp4",
+      live: "/my_portfolio/ddds.mp4",
       features: ["Real-time Detection", "Eye State Recognition", "Head Pose Tracking", "Alert System"]
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       technologies: ["Python", "TensorFlow", "Keras", "Pandas", "NumPy"],
       category: "AI/ML",
       github: "https://github.com/Oussamahassania/detection-malades-human",
-      live: "/kk.mp4",
+      live: "/my_portfolio/kk.mp4",
       features: ["Disease Prediction", "Medical Dataset Analysis", "ML/DL Models", "User-friendly Interface"]
     }
   ];

@@ -43,7 +43,7 @@ const About = () => {
               <div className="glass rounded-2xl p-8 hover-lift">
                 <div className="aspect-square rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-red-900/20 to-red-600/20 flex items-center justify-center">
                   <img 
-                    src="/my_photo.jpg" 
+                    src="/my_portfolio/my_photo.jpg"
                     alt="Oussama Hassania" 
                     className="w-full h-full object-cover rounded-2xl hover:scale-105 transition-transform duration-300"
                   />
