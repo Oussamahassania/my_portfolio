@@ -39,7 +39,7 @@ const Header = () => {
           </motion.div>
           
           <div className="hidden md:flex space-x-8">
-            {['hero', 'about', 'projects', 'contact'].map((item) => (
+            {['hero', 'about', 'projects', 'writeups', 'contact'].map((item) => (
               <motion.button
                 key={item}
                 whileHover={{ scale: 1.1 }}
