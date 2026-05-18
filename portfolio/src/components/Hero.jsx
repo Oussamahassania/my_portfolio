@@ -1,16 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaJava, FaReact, FaAngular, FaBootstrap, FaGithub } from 'react-icons/fa';
-import { SiSpringboot } from 'react-icons/si';
+import { FaJava, FaGithub, FaShieldAlt } from 'react-icons/fa';
+import { SiSpringboot, SiOpenai } from 'react-icons/si';
 
 const Hero = () => {
   const techStack = [
-    { icon: FaJava, color: '#f89820' },
-    { icon: SiSpringboot, color: '#6db33f' },
-    { icon: FaReact, color: '#61dafb' },
-    { icon: FaAngular, color: '#dd0031' },
-    { icon: FaBootstrap, color: '#7952b3' },
-    { icon: FaGithub, color: '#333' }
+    { icon: FaJava, color: '#f89820', label: 'Java' },
+    { icon: SiSpringboot, color: '#6db33f', label: 'Spring Boot' },
+    { icon: FaGithub, color: '#e6edf3', label: 'GitHub' },
+    { icon: FaShieldAlt, color: '#ff4d4d', label: 'Pentesting' },
+    { icon: SiOpenai, color: '#74aa9c', label: 'AI' },
   ];
 
   const containerVariants = {
@@ -76,10 +75,10 @@ const Hero = () => {
 
         <motion.div variants={itemVariants} className="mb-8">
           <h2 className="text-2xl md:text-3xl text-gray-300 mb-4">
-            Fullstack & Backend Developer
+            Backend Developer · AI Engineer · Web Pentester
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Passionate about creating innovative solutions and exploring the world of cybersecurity
+            Building robust backend systems, integrating AI solutions, and uncovering web vulnerabilities
           </p>
         </motion.div>
 
@@ -96,12 +95,15 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}
                 className="group relative"
               >
-                <div className="p-4 rounded-full glass hover-lift">
+                <div className="p-4 rounded-full glass hover-lift flex flex-col items-center gap-1">
                   <tech.icon 
                     size={40} 
                     color={tech.color}
                     className="transition-all duration-300 group-hover:drop-shadow-lg"
                   />
+                  <span className="text-xs text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    {tech.label}
+                  </span>
                 </div>
               </motion.div>
             ))}

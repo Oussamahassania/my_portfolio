@@ -58,9 +58,10 @@ const About = () => {
                     Hi, I'm Oussama Hassania
                   </h3>
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    I'm a 21-year-old fullstack and backend developer from Morocco. 
-                    I have a deep passion for cybersecurity and love exploring the 
-                    latest technologies in web development.
+                    I'm a 21-year-old backend developer and AI engineer from Morocco. 
+                    I specialize in building scalable server-side systems and integrating 
+                    AI into real-world applications, with a deep passion for web pentesting 
+                    and offensive security.
                   </p>
                 </div>
 
@@ -69,9 +70,9 @@ const About = () => {
                     Beyond Development
                   </h4>
                   <p className="text-gray-300 leading-relaxed">
-                    When I'm not coding, I enjoy doing voice-over work and dubbing. 
-                    This creative outlet helps me develop better communication skills 
-                    and attention to detail, which I bring to my development projects.
+                    When I'm not coding or hunting vulnerabilities, I enjoy doing voice-over 
+                    work and dubbing. This creative outlet sharpens my communication and 
+                    attention to detail — qualities I bring directly into my technical work.
                   </p>
                 </div>
 
@@ -85,12 +86,12 @@ const About = () => {
                     <div className="text-sm text-gray-400">Morocco</div>
                   </div>
                   <div className="glass rounded-lg p-4 text-center hover-lift">
-                    <div className="text-2xl font-bold gradient-text">🔒</div>
-                    <div className="text-sm text-gray-400">Cybersecurity</div>
+                    <div className="text-2xl font-bold gradient-text">🤖</div>
+                    <div className="text-sm text-gray-400">AI Engineer</div>
                   </div>
                   <div className="glass rounded-lg p-4 text-center hover-lift">
-                    <div className="text-2xl font-bold gradient-text">🎤</div>
-                    <div className="text-sm text-gray-400">Voice Over</div>
+                    <div className="text-2xl font-bold gradient-text">🕵️</div>
+                    <div className="text-sm text-gray-400">Web Pentester</div>
                   </div>
                 </div>
 
@@ -103,9 +104,9 @@ const About = () => {
                       My Mission
                     </h4>
                     <p className="text-gray-300">
-                      To create innovative, secure, and user-friendly applications 
-                      that make a positive impact while continuously learning and 
-                      growing in the ever-evolving world of technology.
+                      To engineer powerful backend systems, leverage AI to solve complex 
+                      problems, and make the web a safer place — one vulnerability found 
+                      at a time.
                     </p>
                   </div>
                 </motion.div>
